@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff:'Bebas Neue', sans-serif;
+    --nn:'Bebas Neue', sans-serif;
+}
+
+body{
+    background-color: #F2F5DE;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    height: 20vh;
+    background-color: #fff07cc8;
+}
+
+.headerh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+    width: 100%;
+    font-family: var(--ff);
+    font-size: 400%;
+    color:#171738;
+}
+
+.main{
+    display: flex;
+    
+    flex-direction: column;
+    max-height: 700vh;
+    height: auto 100vh ;
+    width: 100%;
+    background-color:green;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2%;
+    background-color: antiquewhite;
+    border: solid rebeccapurple 5px;
+}
+
+.title{
+    font-size: 250%;
+    color: #FC5130;
+    font-family: var(--ff);
+    transition-duration: 1s;
+}
+
+.expalain{
+    font-size: 170%;
+    font-family: var(--nn);
+}
+
+.div_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div_img img{
+    height: 100% auto;
+    width: 40%;
+    border-radius: 3%;
+    border: black solid 5px;
+    transition-duration: 0.7s;
+}
+
+.m1{
+    background-image: linear-gradient(to top, #3c4d65,#A6D9F7) ;
+    transition-duration: 1s;
+
+}
+.m2{
+    background-image: linear-gradient(to top, #CAE5FF,#5A6650) ;
+    transition-duration: 1s;
+}
+
+.m2:hover{
+    .title{
+        font-size: 250%;
+        color: rgb(0, 0, 0);
+        font-family: var(--ff);
+    }
+    .div_img img{
+        height: 100% auto;
+        width: 40%;
+        border-radius: 3%;
+        border: rgb(37, 37, 177) solid 7px;
+    }
+    color: white;
+
+}
+
+
+.m1:hover{
+    .title{
+        font-size: 250%;
+        color: rgb(0, 0, 0);
+        font-family: var(--ff);
+    }
+
+    .div_img img{
+        height: 100% auto;
+        width: 40%;
+        border-radius: 3%;
+        border: rgb(37, 37, 177) solid 7px;
+    }
+    color: white;
+}
+
